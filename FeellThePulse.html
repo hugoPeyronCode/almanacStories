@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feel the Pulse — Hugo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    
+    body {
+      font-family: 'Newsreader', Georgia, serif;
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem 4rem;
+      line-height: 1.75;
+      color: #1a1a1a;
+      background: #fafaf8;
+    }
+    
+    .back-link {
+      font-size: 0.875rem;
+      color: #999;
+      text-decoration: none;
+      display: inline-block;
+      margin-bottom: 3rem;
+      transition: color 0.2s;
+    }
+    
+    .back-link:hover {
+      color: #1a1a1a;
+    }
+    
+    h1 {
+      font-size: 2rem;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.5rem;
+      line-height: 1.3;
+    }
+    
+    .series-label {
+      font-size: 0.75rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #999;
+      margin-bottom: 2.5rem;
+    }
+    
+    p {
+      margin-bottom: 1.5rem;
+    }
+    
+    em {
+      font-style: italic;
+    }
+    
+    a {
+      color: #0066cc;
+      text-decoration: underline;
+      text-decoration-color: #ccc;
+      text-underline-offset: 3px;
+      transition: text-decoration-color 0.2s;
+    }
+    
+    a:hover {
+      text-decoration-color: #0066cc;
+    }
+
+    .next-link {
+      display: block;
+      margin-top: 3rem;
+      padding-top: 2rem;
+      border-top: 1px solid #e5e5e5;
+      font-size: 0.9rem;
+      color: #666;
+      text-decoration: none;
+    }
+    
+    .next-link:hover {
+      color: #1a1a1a;
+    }
+    
+    .next-link span {
+      display: block;
+      font-size: 1rem;
+      color: #1a1a1a;
+      margin-top: 0.25rem;
+    }
+  </style>
+</head>
+<body>
+  <a href="index.html" class="back-link">← Back</a>
+
+  <article>
+    <h1>Feel the Pulse</h1>
+    <p class="series-label">Notes on Building</p>
+
+    <p>We opened a WhatsApp group early so users could join directly. What we get is a self-selected mix: the super engaged and the super frustrated. Both tell you things analytics can't.</p>
+
+    <p>So far, less than 1% of users have joined. That's enough. You don't need statistical significance when you're listening for signal, not measuring effect sizes.</p>
+
+    <p>The group surfaces bugs that would otherwise stay invisible. Here's one: the entire dev team reinstalls the app constantly—testing, debugging, resetting state. We never experience what a long-term user experiences. A user in the group reported that after solving more than 1,000 puzzles, the app started lagging. FPS dropped noticeably.</p>
+
+    <p>The cause was a memory leak that only manifested at scale. We would have found it eventually, maybe through a one-star review, maybe through churn we couldn't explain. Instead, we found it through someone who cared enough to tell us directly.</p>
+
+    <p>This is what "feeling the pulse" means. Not dashboards. Not surveys. A channel where your most invested users can reach you, and where their frustration becomes your information advantage.</p>
+  </article>
+
+  <a href="pm-directs.html" class="next-link">
+    Next →
+    <span>PM Directs, Dev Owns, Designer Polishes</span>
+  </a>
+</body>
+</html>
