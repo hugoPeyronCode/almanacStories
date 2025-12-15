@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Autocracy — Hugo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    
+    body {
+      font-family: 'Newsreader', Georgia, serif;
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem 4rem;
+      line-height: 1.75;
+      color: #1a1a1a;
+      background: #fafaf8;
+    }
+    
+    .back-link {
+      font-size: 0.875rem;
+      color: #999;
+      text-decoration: none;
+      display: inline-block;
+      margin-bottom: 3rem;
+      transition: color 0.2s;
+    }
+    
+    .back-link:hover {
+      color: #1a1a1a;
+    }
+    
+    h1 {
+      font-size: 2rem;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.5rem;
+      line-height: 1.3;
+    }
+    
+    .series-label {
+      font-size: 0.75rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #999;
+      margin-bottom: 2.5rem;
+    }
+    
+    p {
+      margin-bottom: 1.5rem;
+    }
+
+    em {
+      font-style: italic;
+    }
+    
+    a {
+      color: #0066cc;
+      text-decoration: underline;
+      text-decoration-color: #ccc;
+      text-underline-offset: 3px;
+      transition: text-decoration-color 0.2s;
+    }
+    
+    a:hover {
+      text-decoration-color: #0066cc;
+    }
+
+    .prev-link {
+      display: block;
+      margin-top: 3rem;
+      padding-top: 2rem;
+      border-top: 1px solid #e5e5e5;
+      font-size: 0.9rem;
+      color: #666;
+      text-decoration: none;
+    }
+    
+    .prev-link:hover {
+      color: #1a1a1a;
+    }
+    
+    .prev-link span {
+      display: block;
+      font-size: 1rem;
+      color: #1a1a1a;
+      margin-top: 0.25rem;
+    }
+  </style>
+</head>
+<body>
+  <a href="index.html" class="back-link">← Back</a>
+
+  <article>
+    <h1>Happy Autocracy</h1>
+    <p class="series-label">Notes on Building</p>
+
+    <p>Everybody owns their part. But the product is owned by one person only: the PM.</p>
+
+    <p>This isn't about ego or control. It's about coherence. A product is a system. Systems need a single point of accountability for the whole, not just the parts.</p>
+
+    <p>The developers are responsible for the implementation of smaller internal systems—features, modules, technical architecture. They own those completely. The designer is responsible for making the app stand out visually, for polish and consistency across every surface. They own that completely.</p>
+
+    <p>But someone has to own the product as a whole. Someone has to make the call when priorities conflict, when a beautiful design clashes with technical constraints, when a feature request doesn't fit the vision. That person is the PM.</p>
+
+    <p>The "happy" part matters. This isn't dictatorship. It's clarity. When everyone knows who owns what—and who owns the whole—there's less friction, fewer political battles, faster decisions. People can focus on their domain instead of defending territory.</p>
+
+    <p>The alternative is design by committee, where no one is truly accountable and the product becomes a compromise of compromises. That path leads to mediocrity.</p>
+
+    <p>One owner. Clear domains. Happy team.</p>
+  </article>
+
+  <a href="feel-the-pulse.html" class="prev-link">
+    ← Previous
+    <span>Feel the Pulse</span>
+  </a>
+</body>
+</html>
