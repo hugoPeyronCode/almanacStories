@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Almanac Stories</title>
+  <title>Hugo Peyron</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
@@ -46,27 +46,15 @@
       color: #1a1a1a;
     }
     
-    section {
-      margin-bottom: 3rem;
-    }
-    
-    .section-title {
-      font-size: 0.75rem;
-      font-weight: 500;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      color: #999;
-      margin-bottom: 1.25rem;
-      padding-bottom: 0.5rem;
-      border-bottom: 1px solid #e5e5e5;
-    }
-    
     .article-list {
       list-style: none;
     }
     
     .article-list li {
-      margin-bottom: 0.6rem;
+      margin-bottom: 0.5rem;
+      display: flex;
+      align-items: baseline;
+      gap: 1rem;
     }
     
     .article-list a {
@@ -78,32 +66,30 @@
     .article-list a:hover {
       color: #0066cc;
     }
+    
+    .date {
+      color: #999;
+      font-size: 0.875rem;
+      flex-shrink: 0;
+      width: 5.5rem;
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1>The Almanac Stories</h1>
+    <h1>Hugo Peyron</h1>
     <nav>
       <a href="bio.html">Bio</a>
       <a href="contact.html">Contact</a>
     </nav>
   </header>
 
-  <section>
-    <h2 class="section-title">Essays</h2>
-    <ul class="article-list">
-      <li><a href="developers-advantage.html">The Developer's Advantage</a></li>
-      <li><a href="effortful-technology.html">Effortful Technology</a></li>
-    </ul>
-  </section>
-
-  <section>
-    <h2 class="section-title">Notes on Building</h2>
-    <ul class="article-list">
-      <li><a href="feel-the-pulse.html">Feel the Pulse</a></li>
-      <li><a href="pm-directs.html">PM Directs, Dev Owns, Designer Polishes</a></li>
-      <li><a href="happy-autocracy.html">Happy Autocracy</a></li>
-    </ul>
-  </section>
+  <ul class="article-list">
+    <li><span class="date">Dec 2025</span><a href="developers-advantage.html">The Developer's Advantage</a></li>
+    <li><span class="date">Dec 2025</span><a href="happy-autocracy.html">Happy Autocracy</a></li>
+    <li><span class="date">Dec 2025</span><a href="pm-directs.html">PM Directs, Dev Owns, Designer Polishes</a></li>
+    <li><span class="date">Dec 2025</span><a href="feel-the-pulse.html">Feel the Pulse</a></li>
+    <li><span class="date">Nov 2025</span><a href="effortful-technology.html">Effortful Technology</a></li>
+  </ul>
 </body>
 </html>
